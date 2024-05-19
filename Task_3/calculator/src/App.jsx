@@ -25,7 +25,7 @@ const App = () => {
     setResult("");
   };
 
-  const buttonColor = "#f2a33c";
+  const buttonColor = "#758AA2";
 
   return (
     <div className="App ">
@@ -55,7 +55,7 @@ const App = () => {
           <Button symbol="=" handleClick={calculateResult} />
           <Button symbol="-" color={buttonColor} handleClick={addToText} />
         </div>
-        <Button symbol="Clear" color="red" handleClick={resetInput} />
+        <Button symbol="Reset" color="red" handleClick={resetInput} />
       </div>
     </div>
   );
