@@ -5,10 +5,10 @@ export default function Landing() {
   return (
     <LandingLayout>
       <Hero
-        title="Build this rad landing page from scratch"
-        subtitle="This is the subheader section where you describe the basic benefits of your product"
+        title="Landing Page Assignement"
+        subtitle="Beutiful landing page which shows different images"
         image="https://source.unsplash.com/collection/404339/800x600"
-        ctaText="Create your account now"
+        ctaText="Contact Us"
         ctaLink="/signup"
       />
     </LandingLayout>
